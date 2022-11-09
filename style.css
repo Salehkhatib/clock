@@ -35,9 +35,11 @@ html, body{
     width: 2px;
     background-color: black;
     right: 149px;
-    bottom: 149px;
+    bottom: 150px;
     opacity: 50%;
     transform-origin: 0 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #minutes-hand{
@@ -48,15 +50,19 @@ position: absolute;
 right: 145px;
 bottom: 150px;
 transform-origin: 0 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 #hours-hand{
     height: 80px;
 width: 4px;
 background-color: rgb(0, 0, 0);
 position: absolute;
-right: 145px;
+right: 140px;
 bottom: 150px;
 transform-origin: 0 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 #center{
     height: 15px;
