@@ -16,7 +16,10 @@ html, body{
     font-size: 30px;
 
 }
-div{
-    margin-left: 40rem;
-    margin-top: 33rem;
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;   
 }
