@@ -28,6 +28,7 @@ window.onload = function (){
 
 
      setInterval(showTime, 500);
+     showTime()
 };
 
 
@@ -53,4 +54,5 @@ function getTime(){
     hoursHand.style.transform = 'rotate(' + (hours * 30 + minutes / 2 ) + 'deg)'
 }
 setInterval(getTime, 100)
+getTime()
 
