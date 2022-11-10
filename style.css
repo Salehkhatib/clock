@@ -31,15 +31,16 @@ html, body{
 
 #seconds-hand{
     position: absolute;
-    height: 130px;
+    height: 136px;
     width: 2px;
-    background-color: black;
-    right: 149px;
+    background-color: rgb(216, 20, 20);
+    right: 148.6px;
     bottom: 150px;
     opacity: 50%;
     transform-origin: 0 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transform: translate(-50%, -50%);
 }
 
 #minutes-hand{
@@ -52,6 +53,7 @@ html, body{
     transform-origin: 0 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transform: translate(-50%, -50%);
 }
 #hours-hand{
     height: 80px;
@@ -63,6 +65,7 @@ html, body{
     transform-origin: 0 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transform: translate(-50%, -50%);
 }
 #center{
     height: 15px;
